@@ -9,7 +9,7 @@
     版本穿梭(时光机) :  git branch branchname commitHash  
     普通删除分支      : git  branch -d branchname
     强制删除分支      : git  branch -D branchname
-    合并分支         : git merge branchname
+    合并分支         : git merge branchname(当前分支合并 分支branchname， branchname会消失)
         快进合并 --> 不会产生冲突
         典型合并 --> 有机会产生冲突
         解决冲突 --> 打开冲突的文件 进行修改 add commit 
